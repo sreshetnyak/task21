@@ -10,6 +10,11 @@
 
 @interface TTViewController ()
 
+@property (weak,noatomic) UIView *firstView;
+@property (weak,noatomic) UIView *secondView;
+@property (weak,noatomic) UIView *thirdView;
+@property (weak,noatomic) UIView *fourView;
+
 @end
 
 @implementation TTViewController
@@ -18,6 +23,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.firstView = [[UIView alloc] initWithFrame:CGRectMake(0,0,50,50)];
+    self.secondView = [[UIView alloc] initWithFrame:CGRectMake(50,0,50,50)];
 }
 
 - (void)didReceiveMemoryWarning
