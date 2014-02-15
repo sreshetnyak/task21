@@ -10,10 +10,10 @@
 
 @interface TTViewController ()
 
-@property (weak,noatomic) UIView *firstView;
-@property (weak,noatomic) UIView *secondView;
-@property (weak,noatomic) UIView *thirdView;
-@property (weak,noatomic) UIView *fourView;
+@property (weak,nonatomic) UIView *firstView;
+@property (weak,nonatomic) UIView *secondView;
+@property (weak,nonatomic) UIView *thirdView;
+@property (weak,nonatomic) UIView *fourView;
 
 @end
 
