@@ -21,6 +21,16 @@
 		A5D7DCCC18AE0FE5006E3567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D7DCAE18AE0FE5006E3567 /* UIKit.framework */; };
 		A5D7DCD418AE0FE5006E3567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5D7DCD218AE0FE5006E3567 /* InfoPlist.strings */; };
 		A5D7DCD618AE0FE5006E3567 /* UIViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D7DCD518AE0FE5006E3567 /* UIViewAnimationTests.m */; };
+		A5DE7FE718B2132300938AA0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FDD18B2132300938AA0 /* 10.png */; };
+		A5DE7FE818B2132300938AA0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FDE18B2132300938AA0 /* 8.png */; };
+		A5DE7FE918B2132300938AA0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FDF18B2132300938AA0 /* 9.png */; };
+		A5DE7FEA18B2132300938AA0 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE018B2132300938AA0 /* 6.png */; };
+		A5DE7FEB18B2132300938AA0 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE118B2132300938AA0 /* 7.png */; };
+		A5DE7FEC18B2132300938AA0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE218B2132300938AA0 /* 4.png */; };
+		A5DE7FED18B2132300938AA0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE318B2132300938AA0 /* 5.png */; };
+		A5DE7FEE18B2132300938AA0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE418B2132300938AA0 /* 3.png */; };
+		A5DE7FEF18B2132300938AA0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE518B2132300938AA0 /* 2.png */; };
+		A5DE7FF018B2132300938AA0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DE7FE618B2132300938AA0 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		A5D7DCD118AE0FE5006E3567 /* UIViewAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		A5D7DCD318AE0FE5006E3567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5D7DCD518AE0FE5006E3567 /* UIViewAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationTests.m; sourceTree = "<group>"; };
+		A5DE7FDD18B2132300938AA0 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		A5DE7FDE18B2132300938AA0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		A5DE7FDF18B2132300938AA0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		A5DE7FE018B2132300938AA0 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		A5DE7FE118B2132300938AA0 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		A5DE7FE218B2132300938AA0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		A5DE7FE318B2132300938AA0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		A5DE7FE418B2132300938AA0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A5DE7FE518B2132300938AA0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A5DE7FE618B2132300938AA0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +138,7 @@
 				A5D7DCBF18AE0FE5006E3567 /* TTViewController.h */,
 				A5D7DCC018AE0FE5006E3567 /* TTViewController.m */,
 				A5D7DCC218AE0FE5006E3567 /* Images.xcassets */,
+				A5DE7FF118B2133A00938AA0 /* images */,
 				A5D7DCB118AE0FE5006E3567 /* Supporting Files */,
 			);
 			path = UIViewAnimation;
@@ -150,6 +171,23 @@
 				A5D7DCD218AE0FE5006E3567 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5DE7FF118B2133A00938AA0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE7FDD18B2132300938AA0 /* 10.png */,
+				A5DE7FDE18B2132300938AA0 /* 8.png */,
+				A5DE7FDF18B2132300938AA0 /* 9.png */,
+				A5DE7FE018B2132300938AA0 /* 6.png */,
+				A5DE7FE118B2132300938AA0 /* 7.png */,
+				A5DE7FE218B2132300938AA0 /* 4.png */,
+				A5DE7FE318B2132300938AA0 /* 5.png */,
+				A5DE7FE418B2132300938AA0 /* 3.png */,
+				A5DE7FE518B2132300938AA0 /* 2.png */,
+				A5DE7FE618B2132300938AA0 /* 1.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +267,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DE7FEE18B2132300938AA0 /* 3.png in Resources */,
+				A5DE7FEC18B2132300938AA0 /* 4.png in Resources */,
+				A5DE7FED18B2132300938AA0 /* 5.png in Resources */,
+				A5DE7FEA18B2132300938AA0 /* 6.png in Resources */,
+				A5DE7FE818B2132300938AA0 /* 8.png in Resources */,
+				A5DE7FF018B2132300938AA0 /* 1.png in Resources */,
 				A5D7DCC318AE0FE5006E3567 /* Images.xcassets in Resources */,
+				A5DE7FEF18B2132300938AA0 /* 2.png in Resources */,
 				A5D7DCB518AE0FE5006E3567 /* InfoPlist.strings in Resources */,
+				A5DE7FE918B2132300938AA0 /* 9.png in Resources */,
+				A5DE7FE718B2132300938AA0 /* 10.png in Resources */,
 				A5D7DCBE18AE0FE5006E3567 /* Main.storyboard in Resources */,
+				A5DE7FEB18B2132300938AA0 /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +509,7 @@
 				A5D7DCDB18AE0FE5006E3567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D7DCDC18AE0FE5006E3567 /* Build configuration list for PBXNativeTarget "UIViewAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +518,7 @@
 				A5D7DCDE18AE0FE5006E3567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
